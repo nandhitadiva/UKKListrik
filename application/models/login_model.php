@@ -17,7 +17,7 @@ class login_model extends CI_Model {
                                 'username'=> $data_login->username,
                                 'password'=> $data_login->password,
                                 'login'=> TRUE,
-                                'nama_level'=> $data_login->nama_level
+                                'id_level'=> $data_login->id_level
             );
             $this->session->set_userdata($data_session);
             return TRUE;
